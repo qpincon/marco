@@ -6,11 +6,11 @@ You have a 2 dimentional map with a certain height and width. At coordinates x, 
 
 An island is a contiguous group of earth coordinates. For instance in the following map there is an island at the top left corner and one at the bottom right:
 
-EARTH | EARTH | WATER
+[[EARTH, EARTH, WATER],
 
-WATER | WATER | EARTH
+[WATER, WATER, EARTH],
 
-WATER | EARTH | EARTH
+[WATER, EARTH, EARTH]]
 
 Two earth coordinates in diagonal are not considered from the same island.
 
